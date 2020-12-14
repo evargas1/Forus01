@@ -1,0 +1,204 @@
+body {
+  padding: 0;
+  margin: 0;
+  /* line-height: 1.5em; */
+  font-size: 12px;
+}
+
+/* 
+logo nad menu section
+*/
+
+#header_area {
+  background-image: url(./img/new_abnener.jfif);
+  /* height: 600px; */
+  padding: 0;
+  margin-top: 0;
+  background-size: cover;
+  height: 600px;
+  /* background-size: cover; */
+  /* background: no-repeat; */
+}
+#header_area .container {
+  display: inline-block;
+}
+#header_area .logo {
+  /* background-color: crimson; */
+  display: inline-block;
+  padding: 10px;
+  width: 600px;
+  /* padding-right: 120px; */
+  padding-left: 170px;
+  padding-top: 25px;
+}
+#header_area .logo h2 {
+  font-weight: 800;
+  font-size: 30px;
+  color: rgb(239, 243, 243);
+  float: right;
+  padding-right: 280px;
+  line-height: 1.5em;
+}
+#header_area .logo img {
+  border-radius: 60px;
+}
+
+#main_menu {
+  padding-left: 350px;
+  float: left;
+  padding-top: 25px;
+}
+#main_menu ul {
+  text-decoration: none;
+  list-style: none;
+  /* float: left; */
+}
+#main_menu ul li {
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  line-height: 1.5em;
+}
+#main_menu ul li a {
+  color: rgb(246, 246, 250);
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+#main_menu ul li a:hover {
+  color: rgb(217, 209, 226);
+  text-decoration: none;
+  /* border-bottom: coral 15px; */
+  /* box-shadow: 5px 10px coral;
+  opacity: 50%; */
+}
+
+.enter_info {
+  /* padding-top: 400px;
+   */
+  margin-top: 460px;
+  background-color: rgb(217, 209, 226);
+  padding: 20px;
+  margin-left: 280px;
+  margin-right: 60px;
+}
+/* .enter_info .lower_banner {
+  padding: 10px;
+} */
+.enter_info #Loactions {
+  width: 160px;
+  padding: 10px 15px 10px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: rgb(217, 209, 226);
+  border-color: rgb(217, 209, 226);
+  /* margin-right: px; */
+  margin-right: 35px;
+}
+.enter_info #Loactions:hover {
+  background-color: rgb(210, 199, 221);
+  border-color: rgb(217, 209, 226);
+}
+.enter_info [type="submit"] {
+  background-color: rgb(219, 182, 61);
+  width: 120px;
+  padding: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 5px;
+  border-color: rgb(217, 209, 226);
+}
+/* 
+Image gallery
+*/
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container_one {
+  position: relative;
+  margin-top: 80px;
+  /* position: absolute; */
+  /* text-align: center; */
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  text-align: center;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  /* text-align: center; */
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.container_one .column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
